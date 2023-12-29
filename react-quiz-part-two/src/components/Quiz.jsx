@@ -31,6 +31,7 @@ function Quiz({ props }) {
   };
 
   const quitQuiz = () => {
+    alert("Are you sure you want to quit (Press ESC to not quit) ?")
     setRenderEnd(true);
   };
 
